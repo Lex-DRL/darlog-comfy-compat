@@ -22,7 +22,7 @@ dependencies = []
 classifiers = [
 	"Programming Language :: Python :: 3",
 	"Operating System :: OS Independent",
-	"License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
+#	"License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",  # should be detected automatically from `license = `
 ]
 
 [project.urls]
@@ -38,6 +38,9 @@ test = [
 
 # [tool.hatch.version]
 # path = "src/darlog/comfy/compat/___package_meta.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/darlog"]
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]
