@@ -140,7 +140,7 @@ jobs:
   # --------------------------------------------------------
 
 #  publish-to-testpypi:
-#    name: Publish Python 🐍 distribution 📦 to TestPyPI ❗
+#    name: 🐍 Publish to TestPyPI ❗
 #    needs:
 #    - build  # Requires the previous 'build' job to succeed
 #    - just-release-it  # Only do PyPI publishing if "Just release it!" succeeded
@@ -169,7 +169,7 @@ jobs:
 
   publish-to-pypi:
     name: >-
-      Publish Python 🐍 distribution 📦 to PyPI ⬆️
+      🐍 Publish to PyPI ⬆️
     needs:
     - build  # Requires the previous 'build' job to succeed
     - just-release-it  # Only do PyPI publishing if "Just release it!" succeeded
