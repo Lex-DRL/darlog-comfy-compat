@@ -100,8 +100,7 @@ jobs:
   # --------------------------------------------------------
 
   just-release-it:
-    name: >-
-      Publish distribution on GitHub with "📦 Just release it!"
+    name: "📦 Just release it! to GitHub"
     needs: [build]
     runs-on: ubuntu-latest
 
