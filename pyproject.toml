@@ -7,7 +7,7 @@ build-backend = "hatchling.build"
 [project]
 name = "darlog-comfy-compat"
 # dynamic = ["version"]
-version = "0.0.1a0"
+version = "0.0.1a1"
 description = "Dev utilities for ComfyUI to make backwards compatibility and fallbacks easier"
 authors = [
 	{ name="Lex Darlog (Lex-DRL)" },
